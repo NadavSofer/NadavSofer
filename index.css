@@ -1,0 +1,31 @@
+* {
+    color: aliceblue;
+    background-color: #1d1d20;
+}
+
+nav {
+display: flex;
+margin-left: auto;
+margin-right: auto;
+justify-content: space-between;
+padding: 3rem 4rem;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-button {
+    list-style: none;
+}
+
+.nav-button a{
+    text-decoration: none;
+}
