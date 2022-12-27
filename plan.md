@@ -9,8 +9,8 @@
 ##home:
 ---
 ##projects:
-+ soon
-+ cat pic
++ soon **v**
++ cat pic **v**
 ---
 ##about me:
 + skills
@@ -26,7 +26,8 @@
     + fun facts
 ---
 ##resume:
-+ can link from google drive
++ can link from google drive **v**
++ resume on page
 
 ---
 ##contact:
@@ -34,3 +35,6 @@
 + mail
 + phone
 + github
+
+---
+##footer **v**
