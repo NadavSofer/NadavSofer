@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/cece1c3b6f.js" crossorigin="anonymous"></script>
     <title>NadavSofer Front-end</title>
     <style>
 
@@ -22,13 +22,13 @@
             <div class="nav-menu">
                 <button class="button-icon">
                     <span class="button-wrap">
-                        <span class="icon icon-dark"><i class="fa fa-moon-o" style="font-size: large;"></i></span>
+                        <span class="icon icon-dark"><i class="fa-solid fa-moon"></i></span>
                     </span>
                 </button>
                 <ul class="nav-buttons">
                     <li id="nav-home" class="nav-button" ><a href="/home.html">Home</a></li>
                     <li id="nav-projects" class="nav-button"><a href="/projects.html">Projects</a></li>
-                    <li id="nav-aboutMe" class="nav-button"><a href="/about.html">About Me</a></li>
+                    <li id="nav-aboutMe" class="nav-button"><a href="/about.html">About</a></li>
                     <li id="nav-resume" class="nav-button"><a href="/resume.html">Resume</a></li>
                     <li id="nav-contact" class="nav-button"><a href="#">Contact</a></li>
                 </ul>
@@ -41,10 +41,30 @@
         <article class="Contact">
             <div class="container">
                 <h1>Contact</h1>
-                    <img src="" alt="linkedin"><a href=""></a></img>
-                    <img src="" alt="mail"><a href=""></a></img>
-                    <img src="" alt="phone"><a href=""></a></img>
-                    <img src="" alt="github"><a href=""></a></img>
+                    <form action="https://formspree.io/f/mgebeedl" method="POST">
+                        <div class="form-group">
+                            <label for="name">
+                                name:
+                                <input type="text" name="name" id="name" placeholder="Name">
+                            </label>
+                            <label>
+                                Email:
+                                <input type="email" name="email" placeholder="Email">
+                            </label>
+                            <label>
+                                Message:
+                                <textarea name="message" placeholder="Message" rows="5"></textarea>
+                            </label>
+                            <button type="submit">Submit</button>
+                        </div>
+                    </form>
+                <div class="links">
+                    <i class="fa-brands fa-linkedin"><a href=""></a></i>
+                    <i class="fa-solid fa-at"><a href=""></a></i>
+                    <i class="fa-solid fa-mobile-screen"><a href=""></a></i>
+                    <i class="fa-brands fa-github"><a href=""></a></i>
+                </div>
+            </div>
         </article>
     </main>
     <footer>
