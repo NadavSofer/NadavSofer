@@ -121,6 +121,41 @@ svg {
 
 /*contact*/
 
+.contact .container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 34rem;
+}
+
+.form-part {
+    border: aliceblue solid 1px;
+    margin-bottom: 1.5rem;
+}
+
+input {
+    height: 3rem;
+    width: 30rem;
+}
+
+textarea {
+    height: 10rem;
+    width: 30rem;
+}
+
+.submit {
+    height: 3rem;
+    width: 10rem;
+
+}
+
+.contact .icon {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+
+    
+}
 
 /*footer*/
 
