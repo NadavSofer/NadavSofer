@@ -30,11 +30,10 @@
 + resume on page
 
 ---
-##contact:
-+ linkedin
-+ mail
-+ phone
-+ github
+##contact: **v**
++ linkedin **v**
++ mail  **v**
++ github  **v**
 
 ---
 ##footer **v**

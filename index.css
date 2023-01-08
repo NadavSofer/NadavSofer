@@ -1,6 +1,7 @@
 /*general*/
 :root {
-    --BG-dark-grey: #0e0e18
+    --BG-dark-grey: #1d1d20;
+    --grey-border: #6c6c6c;
 }
 
 * {
@@ -10,6 +11,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 main {
@@ -39,6 +41,14 @@ a {
     opacity: 70%;
 }
 
+h1 {
+    font-size: 3.25rem;
+    margin: 2rem 0;
+}
+
+main .container {
+    height: 42rem;
+}
 /*nav*/
 
 nav {
@@ -71,10 +81,11 @@ max-width: 65%;
     height: 1.6rem;
     display: contents;
     padding-bottom: 1rem;
+    border-bottom: transparent 3px solid;
 }
 
 .nav-button :hover{
-    border-bottom:  #087BC8 3px solid;
+    border-bottom:  #087BC8;
 }
 
 #nav-home a {
@@ -100,7 +111,6 @@ max-width: 65%;
 }
     
 .projects .container{
-    height: 34rem;
     display: flex;
     flex-direction: column;
 }
@@ -114,10 +124,28 @@ max-width: 65%;
 
 
 /*resume*/
+.resume .container {
+    margin: auto;
+    height: 75rem;
+    width: 50rem;
+}
+
 svg {
     height: 5rem;
     width: 5rem;
 }
+
+
+#resume-link {
+    height: 62rem;
+    width: 50rem;
+}
+
+.resume p {
+    margin-bottom: 2rem;
+}
+
+/*pdf*/
 
 /*contact*/
 
@@ -126,11 +154,27 @@ svg {
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
-    height: 34rem;
+}
+
+.contact .container h1 {
+    margin-bottom: 1rem;
+}
+
+.contact .container p {
+    margin-bottom: 0.5rem;
+}
+
+h6 {
+    font-weight: 400;
+    font-style: normal;
+}
+
+form {
+    margin-top: 2rem;
 }
 
 .form-part {
-    border: aliceblue solid 1px;
+    border: var(--grey-border) solid 1px;
     margin-bottom: 1.5rem;
 }
 
@@ -150,11 +194,17 @@ textarea {
 
 }
 
-.contact .icon {
-    font-size: 1.5rem;
-    margin-left: 1rem;
+.links {
+    display: flex;
+}
 
-    
+.contact .icon {
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+#linkedin {
+    margin-left: 0;
 }
 
 /*footer*/
@@ -166,7 +216,7 @@ footer .container {
 }
 
 .footer-tag {
-    margin: 3rem 2rem 3rem;
+    margin: 1rem 2rem ;
     padding: 2rem 0rem 0rem 3rem;
-    border-top: solid 0.3rem #6c6c6c;
+    border-top: solid 0.3rem var(--grey-border);
 }
