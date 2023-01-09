@@ -2,6 +2,7 @@
 :root {
     --BG-dark-grey: #1d1d20;
     --grey-border: #6c6c6c;
+    --accent-blue: #087BC8;
 }
 
 * {
@@ -35,8 +36,8 @@ a {
 }
 
 .svg-logo {
-    fill: #087BC8;
-    border: #087BC8 solid 0.3rem;
+    fill: var(--accent-blue);
+    border: var(--accent-blue) solid 0.3rem;
     border-radius: 5%;
     opacity: 70%;
 }
@@ -85,11 +86,11 @@ max-width: 65%;
 }
 
 .nav-button :hover{
-    border-bottom:  #087BC8;
+    border-bottom:  var(--accent-blue)
 }
 
 #nav-home a {
-    color: #087BC8;
+    color: var(--accent-blue);
 }
 
 /*mode swap*/
@@ -143,6 +144,16 @@ svg {
 
 .resume p {
     margin-bottom: 2rem;
+}
+
+.resume-text {
+    display: flex;
+}
+
+.resume-text a {
+    margin-left: 0.3rem;
+    color: var(--accent-blue);
+    font-weight: 700;
 }
 
 /*pdf*/
