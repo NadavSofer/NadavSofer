@@ -3,10 +3,12 @@
     --BG-dark-grey: #1d1d20;
     --grey-border: #6c6c6c;
     --accent-blue: #087BC8;
+    --text-grey: #c6c6c6;
+    --link-white: aliceblue;
 }
 
 * {
-    color: aliceblue;
+    color: var(--text-grey);
     background-color: var(--BG-dark-grey);
     display: block;
     margin: 0;
@@ -29,11 +31,6 @@ a {
 }
 
 /*logo*/
-.svg-example {
-    fill: aliceblue;
-    height: 5rem;
-    width: 5rem;
-}
 
 .svg-logo {
     fill: var(--accent-blue);
@@ -100,6 +97,68 @@ max-width: 65%;
 }
 
 /*home*/
+
+.home .container {
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    padding-top: 5rem;
+}
+
+.home-title {
+    font-size: 5rem;
+}
+
+.text-container {
+    padding-left: 2rem;
+    border-left: var(--accent-blue) solid;
+}
+
+.overview-text {
+    margin-bottom: 3rem;
+    line-height: 2rem;
+}
+
+.home-button-container {
+    display: inline;
+}
+
+.home-buttons {
+    display: flex;
+    line-height: 3rem;
+}
+
+.home-button {
+    margin: 0 0.3rem;
+    border: none;
+    font-size: inherit;
+    font-weight: 700;
+}
+
+.home-button a {
+    color: var(--link-white);
+    background-color: #2f3032;
+    border-radius: 8%;
+    padding: 0.5rem;
+    transition: 0.5s ease-in-out;
+}
+
+.home-button a:hover {
+    background-color: var(--accent-blue);
+}
+
+#last {
+    color: var(--link-white);
+    background-color: #2f3032;
+    border-radius: 8%;
+    padding: 0.5rem;
+    transition: 0.5s ease-in-out;
+}
+
+#last:hover {
+    background-color: var(--accent-blue);
+}
 
 /*projects*/
 
@@ -212,6 +271,11 @@ textarea {
 .contact .icon {
     font-size: 2rem;
     margin-left: 1rem;
+    transition: 0.5s ease-in-out;
+}
+
+.contact .icon:hover {
+    font-size: 3rem;
 }
 
 #linkedin {

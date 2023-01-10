@@ -7,6 +7,8 @@
 
 ---
 ##home:
++ text **v**
++ design **v**
 ---
 ##projects:
 + soon **v**
