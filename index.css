@@ -5,6 +5,7 @@
     --accent-blue: #087BC8;
     --text-grey: #c6c6c6;
     --link-white: aliceblue;
+
 }
 
 * {
@@ -22,6 +23,18 @@ main {
     width: 80%;
 }
 
+body::-webkit-scrollbar {
+    width: 1rem;
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--grey-border);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--accent-blue);
+}
+
 .svg-storage, title, style, script {
     display: none;
 }
@@ -37,6 +50,8 @@ a {
     border: var(--accent-blue) solid 0.3rem;
     border-radius: 5%;
     opacity: 70%;
+    height: 5rem;
+    width: 5rem;
 }
 
 h1 {
@@ -47,6 +62,7 @@ h1 {
 main .container {
     height: 42rem;
 }
+
 /*nav*/
 
 nav {
@@ -129,14 +145,14 @@ max-width: 65%;
     line-height: 3rem;
 }
 
-.home-button {
+.text-button {
     margin: 0 0.3rem;
     border: none;
     font-size: inherit;
     font-weight: 700;
 }
 
-.home-button a {
+.text-button a {
     color: var(--link-white);
     background-color: #2f3032;
     border-radius: 8%;
@@ -144,7 +160,7 @@ max-width: 65%;
     transition: 0.5s ease-in-out;
 }
 
-.home-button a:hover {
+.text-button a:hover {
     background-color: var(--accent-blue);
 }
 
@@ -178,10 +194,50 @@ max-width: 65%;
 .projects img {
     height: 34rem;
     margin: 2rem;
+    border-radius: 5px;
 }
 
 /*about*/
 
+.skills {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.skill-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: #065B94;
+    opacity: 80%;
+}
+
+.box-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    padding: 0.5rem;
+    width: 8rem;
+    border-radius: 5px;
+}
+
+.about-svg {
+    height: 2rem;
+    width: auto;
+    fill: #02C0DE;
+    margin-right: 0.5rem;
+}
+
+.box-text {
+    font-weight: 700;
+}
 
 /*resume*/
 .resume .container {
@@ -190,10 +246,7 @@ max-width: 65%;
     width: 50rem;
 }
 
-svg {
-    height: 5rem;
-    width: 5rem;
-}
+
 
 
 #resume-link {
@@ -207,12 +260,7 @@ svg {
 
 .resume-text {
     display: flex;
-}
-
-.resume-text a {
-    margin-left: 0.3rem;
-    color: var(--accent-blue);
-    font-weight: 700;
+    align-items: center;
 }
 
 /*pdf*/
@@ -245,6 +293,7 @@ form {
 
 .form-part {
     border: var(--grey-border) solid 1px;
+    border-radius: 0.2rem;
     margin-bottom: 1.5rem;
 }
 

@@ -1,12 +1,13 @@
 #plan:
 ---
 ##general:
-+ NS logo
++ NS logo **v**
 + light mode/dark mode
-
++ page transitions
++ accessibility
 
 ---
-##home:
+##home: **v**
 + text **v**
 + design **v**
 ---
@@ -15,21 +16,22 @@
 + cat pic **v**
 ---
 ##about me:
-+ skills
++ skills **v**
     + html
     + js
     + css
     + python
     + git
-    + github
-+ personal stuff
-    + actual info
-    + CV rambeling 
-    + fun facts
+    + github 
++ CV rambeling
+    + behavioral skils
+    + circle
+    + professional skills
++ fun facts
 ---
 ##resume:
 + can link from google drive **v**
-+ resume on page
++ resume on page **v**
 
 ---
 ##contact: **v**
