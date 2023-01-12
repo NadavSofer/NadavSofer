@@ -199,6 +199,15 @@ max-width: 65%;
 
 /*about*/
 
+.about .container {
+    height: fit-content;
+}
+
+.inner-container {
+    margin-bottom: 3rem;
+}
+
+/*skills*/
 .skills {
     display: flex;
     flex-direction: column;
@@ -239,15 +248,59 @@ max-width: 65%;
     font-weight: 700;
 }
 
+/*chart*/
+.chart {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+
+.chart-box {
+display: flex;
+flex-wrap: wrap;
+align-content: center;
+}
+.chart-part {
+    display: flex;
+    align-items: center;
+}
+
+.chart-text
+
+.chart-half-circle {
+    height: 50px;
+    width: 20px;
+}
+
+.chart-part circle {
+    fill: red;
+}
+
+.text-right {
+
+}
+
+.text-left {
+
+}
+
+.right:hover .text-right {
+    
+}
+
+.left:hover .text-left {
+    
+}
+
+/*personal*/
+
 /*resume*/
 .resume .container {
     margin: auto;
-    height: 75rem;
+    height: fit-content;
     width: 50rem;
 }
-
-
-
 
 #resume-link {
     height: 62rem;
@@ -263,7 +316,9 @@ max-width: 65%;
     align-items: center;
 }
 
-/*pdf*/
+.resume iframe {
+    margin-bottom: 5rem;
+}
 
 /*contact*/
 
