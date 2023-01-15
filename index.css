@@ -254,6 +254,8 @@ max-width: 65%;
     flex-wrap: wrap;
     flex-direction: column;
     align-content: center;
+    padding: 3rem 0;
+    border: var(--grey-border) solid;
 }
 
 .chart-box {
@@ -266,31 +268,52 @@ align-content: center;
     align-items: center;
 }
 
-.chart-text
-
-.chart-half-circle {
-    height: 50px;
-    width: 20px;
-}
-
 .chart-part circle {
-    fill: red;
+    opacity: 70%;
 }
 
-.text-right {
-
+.left-half circle {
+    fill: #02C0DE;
+    margin-right: 0.5rem;
 }
 
-.text-left {
-
+.right-half circle {
+    fill: #065B94;
+    margin-left: 0.5rem;
 }
 
-.right:hover .text-right {
-    
+.chart-text {
+    height: 100%;
 }
 
-.left:hover .text-left {
-    
+
+
+.chart-text li {
+    font-size: 1.3rem;
+    margin: 1rem 0;
+}
+
+.chart-box-title {
+    margin-top: 4rem;
+    font-size: 2rem;
+    transform: translatey(4rem);
+    transition: 1s ease-in-out;
+}
+
+.text-right, .text-left {
+    transform: translatey(7rem);
+    transition: 1.5s ease-in-out;
+    margin-top: 3rem;
+    opacity: 0%;
+}
+
+.left:hover .text-left, .right:hover .text-right{
+    transform: translatey(-3rem);
+    opacity: 100%;
+}
+
+.right:hover .title-right, .left:hover .title-left {
+    transform: translatey(-3rem);
 }
 
 /*personal*/
