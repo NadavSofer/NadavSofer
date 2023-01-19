@@ -5,6 +5,7 @@
     --accent-blue: #087BC8;
     --text-grey: #c6c6c6;
     --link-white: aliceblue;
+    --dark: #212121
 
 }
 
@@ -12,6 +13,7 @@
     color: var(--text-grey);
     background-color: var(--BG-dark-grey);
     display: block;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -63,6 +65,26 @@ main .container {
     height: 42rem;
 }
 
+/*page transition*/
+
+.transition-1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 101;
+    background-color: var(--dark);
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.3s ease-out;
+}
+
+.transition-1.is-active {
+    pointer-events: all;
+    opacity: 1;
+}
+
 /*nav*/
 
 nav {
@@ -104,12 +126,6 @@ max-width: 65%;
 
 #nav-home a {
     color: var(--accent-blue);
-}
-
-/*mode swap*/
-
-.button-icon {
-    border: white solid 1px;
 }
 
 /*home*/
@@ -203,9 +219,19 @@ max-width: 65%;
     height: fit-content;
 }
 
+.about h1 {
+    margin: 2rem 0 6rem 15rem;
+}
+
 .inner-container {
     margin-bottom: 3rem;
 }
+
+.about-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
 
 /*skills*/
 .skills {
@@ -255,14 +281,15 @@ max-width: 65%;
     flex-direction: column;
     align-content: center;
     padding: 3rem 0;
-    border: var(--grey-border) solid;
 }
 
 .chart-box {
 display: flex;
 flex-wrap: wrap;
 align-content: center;
+margin-left: 3rem;
 }
+
 .chart-part {
     display: flex;
     align-items: center;
@@ -272,21 +299,21 @@ align-content: center;
     opacity: 70%;
 }
 
-.left-half circle {
+.left-half {
     fill: #02C0DE;
-    margin-right: 0.5rem;
+    margin-right: 0.25rem;
+    margin-left: 2.5rem;
 }
 
-.right-half circle {
+.right-half {
     fill: #065B94;
-    margin-left: 0.5rem;
+    margin-left: 0.25rem;
+    margin-right: 2.5rem;
 }
 
 .chart-text {
     height: 100%;
 }
-
-
 
 .chart-text li {
     font-size: 1.3rem;
@@ -303,7 +330,7 @@ align-content: center;
 .text-right, .text-left {
     transform: translatey(7rem);
     transition: 1.5s ease-in-out;
-    margin-top: 3rem;
+    margin-top: 2.5rem;
     opacity: 0%;
 }
 
@@ -316,7 +343,13 @@ align-content: center;
     transform: translatey(-3rem);
 }
 
+.text-right {
+    text-align: right;
+}
+
 /*personal*/
+
+
 
 /*resume*/
 .resume .container {

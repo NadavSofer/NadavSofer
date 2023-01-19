@@ -2,20 +2,18 @@
 ---
 ##general:
 + NS logo **v**
-+ light mode/dark mode
 + page transitions
-+ accessibility
 
 ---
 ##home: **v**
 + text **v**
 + design **v**
 ---
-##projects:
+##projects: **v**
 + soon **v**
 + cat pic **v**
 ---
-##about me:
+##about me: **v**
 + skills **v**
     + html
     + js
@@ -23,13 +21,13 @@
     + python
     + git
     + github 
-+ CV rambeling
++ CV rambeling **v**
     + behavioral skils
     + circle
     + professional skills
-+ fun facts
++ fun facts **?**
 ---
-##resume:
+##resume: **v**
 + can link from google drive **v**
 + resume on page **v**
 
