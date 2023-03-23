@@ -19,7 +19,7 @@ Here are some ideas to get you started:
 
 - 🌱 I’m currently learning **at Developers Institute**
 
-- 👨‍💻 All of my projects are available at [https://nadavsofer.github.io/Portfolio-website/index.html](https://nadavsofer.github.io/Portfolio-website/index.html)
+- 👨‍💻 All of my projects are available at [https://nadavsofer.github.io/Portfolio-website/index.html](https://nadavsofer.github.io/Portfolio-website/home.html)
 
 - 📄 Know about my experiences [https://nadavsofer.github.io/Portfolio-website/resume.html](https://nadavsofer.github.io/Portfolio-website/resume.html)
 
