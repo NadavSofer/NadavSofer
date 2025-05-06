@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently working on Icheckin<br>🤝 I’m looking for help with machine learning <br>🌱 I’m currently learning angular<br>💬 Ask me about animal facts<br>
+🔭 I’m currently working on Icheckin<br>🤝 I’m looking for help with machine learning <br>🌱 I’m currently learning Next.js<br>💬 Ask me about animal facts<br>
 
 
 ## 🌐 Socials:
